@@ -87,16 +87,12 @@
                                     <div class="col-lg-7">
                                         <div class="p-5">
                                             <div class="text-center">
-                                                <h1 class="h4 text-gray-900 mb-4">CALCULO DE MUESTRA FINITO!</h1>
+                                                <h1 class="h4 text-gray-900 mb-4">CALCULO DE MUESTRA INFINITO!</h1>
                                                 <h2 class="h4 text-gray-900 mb-4">Aplicacion que me permite calcular la
                                                     muestra finita</h2>
                                             </div>
                                             <form action="blank.php" method="post">
-                                                <div class="form-group row">
-                                                    <h5 class="h5 text-gray-900 mb-4">Tamaño de la Poblacion o Universo
-                                                    </h5>
-                                                    <input type="number" name="N" class="form-control form-control-user" id="exampleFirstName" placeholder="N">
-                                                </div>
+                                               
                                                 <div class="form-group row">
                                                     <h5 class="h5 text-gray-900 mb-4">Parámetro estadístico que depende
                                                         el nivel de confianza (NC)
@@ -146,14 +142,13 @@
                                                 <a class="small" href="blank.php">
                                                     <?php
                                                     error_reporting(0);
-                                                    $N = $_POST['N'];
                                                     $Z = $_POST['Z'];
                                                     $e = $_POST['e'] / 100;
                                                     $p = $_POST['p'] / 100;
                                                     $q = $_POST['q'] / 100;
 
-                                                    $numerador = ($N * ($Z * $Z) * $p * $q);
-                                                    $divisor = (($e * $e) * ($N - 1)) + (($Z * $Z) * $p * $q);
+                                                    $numerador = (($Z * $Z) * $p * $q);
+                                                    $divisor = ($e * $e);
                                                     $n = $numerador / $divisor;
                                                     echo '<div class="jumbotron"><h1>El resultado es ' . $n . '</h1></div>';
 
