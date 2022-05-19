@@ -29,7 +29,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="blank.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="blankdos.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -91,7 +91,7 @@
                                                 <h2 class="h4 text-gray-900 mb-4">Aplicacion que me permite calcular la
                                                     muestra finita</h2>
                                             </div>
-                                            <form action="blank.php" method="post">
+                                            <form action="blankdos.php" method="post">
                                                
                                                 <div class="form-group row">
                                                     <h5 class="h5 text-gray-900 mb-4">Parámetro estadístico que depende
@@ -139,7 +139,7 @@
                                             <hr>
 
                                             <div class="text-center">
-                                                <a class="small" href="blank.php">
+                                                <a class="small" href="blankdos.php">
                                                     <?php
                                                     error_reporting(0);
                                                     $Z = $_POST['Z'];
