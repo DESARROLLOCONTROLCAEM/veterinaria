@@ -69,7 +69,7 @@
                                         <a class="small" href="forgot-password.php">Olvido Contraseña?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.html">Crear Cuenta!</a>
+                                        <a class="small" href="register.php">Crear Cuenta!</a>
                                     </div>
                                 </div>
                             </div>
