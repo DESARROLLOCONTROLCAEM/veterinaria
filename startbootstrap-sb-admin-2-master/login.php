@@ -66,7 +66,7 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Olvido Contraseña?</a>
+                                        <a class="small" href="forgot-password.php">Olvido Contraseña?</a>
                                     </div>
                                     <div class="text-center">
                                         <a class="small" href="register.html">Crear Cuenta!</a>

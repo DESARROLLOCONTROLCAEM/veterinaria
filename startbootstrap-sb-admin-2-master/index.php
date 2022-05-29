@@ -256,7 +256,23 @@
 
                     </div>
 
+                    <div class="container">
 
+                        <div class="card o-hidden border-25 shadow-lg my-25">
+                            <div class="card-body p-25">
+                                <!-- Nested Row within Card Body -->
+                                <div class="row">
+                                    <div class="col-lg-5 d-none d-lg-block ">
+                                        <img class="sidebar-card-illustration mb-2" src="images/404-01.png" alt="...">
+                                    </div>
+                                    <div class="col-lg-15">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.608746375576!2d-74.072597!3d4.611525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3dbdc5de2294942e!2sUniversidad%20INCCA%20de%20Colombia%20Sede%20Central!5e0!3m2!1ses!2sco!4v1653858705313!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
                 <!-- /.container-fluid -->
