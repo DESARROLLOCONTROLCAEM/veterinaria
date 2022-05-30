@@ -28,13 +28,13 @@
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block ">
-                        <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="...">
+                    <div class="col-lg-5 d-none d-lg-block mb-3 ">
+                        <img class="sidebar-card-illustration mb-2" src="images/links-02.jpg" alt="...">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h3 text-gray-900 mb-4">Crea una Paciente!</h1>
+                                <h1 class="h3 text-gray-900 mb-4">Editar una Paciente!</h1>
                             </div>
                             <form class="paciente">
                                 <div class="form-group row">
@@ -99,13 +99,15 @@
                                 </div>
                                 
                                 <br>
+                                
                                 <a href="paciente.php" class="btn btn-primary btn-user btn-block">
-                                    Registrar Paciente
+                                    Editar Paciente
                                 </a>
                                 <hr>
 
                             </form>
                             <hr>
+                            
                             <div class="text-center">
                                 <a class="small" href="paciente.php">Cancelar!</a>
                             </div>
