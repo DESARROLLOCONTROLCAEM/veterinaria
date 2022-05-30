@@ -13,9 +13,7 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -31,50 +29,85 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-block ">
-                    <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="...">
+                        <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="...">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Crea una cuenta!</h1>
+                                <h1 class="h3 text-gray-900 mb-4">Crea una Paciente!</h1>
                             </div>
-                            <form class="user">
+                            <form class="paciente">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="examplePrimertName"
-                                            placeholder="Primer Nombre">
+                                        <input type="text" class="form-control form-control-user" id="nombrepaciente" placeholder="Nombre Paciente">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="exampleSegundoName"
-                                            placeholder="Segundo Nombre">
+                                        <input type="text" class="form-control form-control-user" id="nombrecomun" placeholder="Nombre Comun">
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="exampleEmail"
-                                        placeholder="Dirección de correo electrónico">
-                                </div>
+                                
+                                <br>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="password" class="form-control form-control-user"
-                                            id="exampleInputPassword" placeholder="Contraseña">
+                                        <select class="text-primary" aria-label="Default select example" name="genero" id="genero">
+                                            <option selected>Genero</option>
+                                            <option value="1">Potos</option>
+                                            <option value="2">Amazona</option>
+                                            <option value="3">Pionites melanocephalus</option>
+                                            <option value="4">Pionus</option>
+                                        </select>
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Repita Contraseña">
+                                    <select class="text-primary" aria-label="Default select example" name="especie" id="especie">
+                                            <option selected>Especie</option>
+                                            <option value="1">Flavus</option>
+                                            <option value="2">Amazónica</option>
+                                            <option value="3">Melanocephalus</option>
+                                            <option value="4">Menstruus</option>
+                                        </select>
                                     </div>
                                 </div>
-                                <a href="login.php" class="btn btn-primary btn-user btn-block">
-                                    Registrar Cuenta
+                                
+                                <br>
+                                <div class="form-group row">
+                                   
+                                    <div class="col-sm-12">
+                                        <input type="text" class="form-control form-control-user" id="nombrecientifico" placeholder="Nombre Cientifico">
+                                    </div>
+                                </div>
+                                
+                                <br>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <select class="text-primary" aria-label="Default select example" name="etapa" id="etapa">
+                                            <option selected>Etapa de Desarrollo</option>
+                                            <option value="1">Neonato</option>
+                                            <option value="2">Infantil</option>
+                                            <option value="3">Juvenil</option>
+                                            <option value="4">SubAdulto</option>
+                                            <option value="5">Adulto</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-6">
+                                    <select class="text-primary" aria-label="Default select example" name="sexo" id="sexo">
+                                            <option selected>Sexo</option>
+                                            <option value="1">Hembra</option>
+                                            <option value="2">Macho</option>
+                                            <option value="3">Indeterminada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <br>
+                                <a href="paciente.php" class="btn btn-primary btn-user btn-block">
+                                    Registrar Paciente
                                 </a>
                                 <hr>
-                               
+
                             </form>
                             <hr>
                             <div class="text-center">
-                                <a class="small" href="forgot-password.php">Has olvidado tu contraseña?</a>
-                            </div>
-                            <div class="text-center">
-                                <a class="small" href="login.php">¿Ya tienes una cuenta? Login!</a>
+                                <a class="small" href="paciente.php">Volver!</a>
                             </div>
                         </div>
                     </div>
