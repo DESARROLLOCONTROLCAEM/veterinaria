@@ -219,7 +219,13 @@
                             <!-- DataTales Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Tabla Pacientes</h6>
+                                    <a href="registerpacientes.php" class="btn btn-success btn-icon-split">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+                                        <span class="text">Crear Paciente</span>
+                                    </a>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
@@ -258,9 +264,9 @@
                                                     <td>$320,800</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -275,9 +281,9 @@
                                                     <td>$170,750</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -292,9 +298,9 @@
                                                     <td>$86,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -309,9 +315,9 @@
                                                     <td>$433,060</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -326,9 +332,9 @@
                                                     <td>$162,700</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -343,9 +349,9 @@
                                                     <td>$372,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -360,9 +366,9 @@
                                                     <td>$137,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -377,9 +383,9 @@
                                                     <td>$327,900</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -394,9 +400,9 @@
                                                     <td>$205,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -411,9 +417,9 @@
                                                     <td>$103,600</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -428,9 +434,9 @@
                                                     <td>$90,560</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -445,9 +451,9 @@
                                                     <td>$342,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -462,9 +468,9 @@
                                                     <td>$470,600</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -479,9 +485,9 @@
                                                     <td>$313,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
@@ -496,9 +502,9 @@
                                                     <td>$385,750</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="#" class="btn btn-info btn-circle">
+                                                        <a href="registerpacientes.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
-                                                        </a>                                                        
+                                                        </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
                                                             <i class="fas fa-trash"></i>
                                                         </a>
