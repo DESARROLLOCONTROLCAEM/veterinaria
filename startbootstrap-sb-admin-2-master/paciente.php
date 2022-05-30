@@ -123,10 +123,10 @@
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
-              <!-- Nav Item - Charts -->
-              <li class="nav-item active">
+            <!-- Nav Item - Charts -->
+            <li class="nav-item active">
                 <a class="nav-link" href="paciente.php">
-                    <i class="fas fa-fw fa-user"></i>
+                    <i class="fas fa-fw fa-paw"></i>
                     <span>Pacientes</span></a>
             </li>
 

@@ -126,6 +126,16 @@
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paciente.php">
+                    <i class="fas fa-fw fa-paw"></i>
+                    <span>Pacientes</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paciente.php">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>Propietario</span></a>
+            </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
