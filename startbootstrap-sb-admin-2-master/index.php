@@ -31,15 +31,15 @@
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-            
+
             <div id="content">
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-                <div class="sidebar-brand-icon ">
-                    <img class="sidebar-card-illustration " src="images/LOGO.png" alt="...">
-                </div>
-                <div class="sidebar-brand-text mx-3">ANGEL PETS<sup></sup></div>
+                    <div class="sidebar-brand-icon ">
+                        <img class="sidebar-card-illustration " src="images/LOGO.png" alt="...">
+                    </div>
+                    <div class="sidebar-brand-text mx-3">ANGEL PETS<sup></sup></div>
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
@@ -155,15 +155,17 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Promedio de Satisfacciòn
                                             </div>
+
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">95%</div>
                                                 </div>
                                                 <div class="col">
                                                     <div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar" style="width: %" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -205,7 +207,7 @@
                                 <!-- Nested Row within Card Body -->
                                 <div class="row">
                                     <div class="col-lg-5 d-none d-lg-block ">
-                                        <img class="sidebar-card-illustration mb-2" src="images/contacts-01.jpg" alt="...">
+                                        <img class="sidebar-card-illustration mb-2" src="images/logodos.png" alt="...">
                                     </div>
                                     <div class="col-lg-15">
                                         <iframe width="600" height="405" src="https://www.youtube.com/embed/R_Y_X_bYLGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -270,7 +272,7 @@
                                         <img class="sidebar-card-illustration mb-2" src="images/404-01.png" alt="...">
                                     </div>
                                     <div class="col-lg-15">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.608746375576!2d-74.072597!3d4.611525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3dbdc5de2294942e!2sUniversidad%20INCCA%20de%20Colombia%20Sede%20Central!5e0!3m2!1ses!2sco!4v1653858705313!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.608746375576!2d-74.072597!3d4.611525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3dbdc5de2294942e!2sUniversidad%20INCCA%20de%20Colombia%20Sede%20Central!5e0!3m2!1ses!2sco!4v1653858705313!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
