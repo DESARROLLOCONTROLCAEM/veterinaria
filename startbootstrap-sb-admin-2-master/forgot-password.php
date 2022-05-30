@@ -47,7 +47,7 @@
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Enter Email Address...">
+                                                placeholder="Ingresar Correo">
                                         </div>
                                         <a href="login.php" class="btn btn-primary btn-user btn-block">
                                         Restablecer la contraseña

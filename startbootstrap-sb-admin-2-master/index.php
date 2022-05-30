@@ -31,11 +31,15 @@
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
+            
             <div id="content">
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
+                <div class="sidebar-brand-icon ">
+                    <img class="sidebar-card-illustration " src="images/LOGO.png" alt="...">
+                </div>
+                <div class="sidebar-brand-text mx-3">ANGEL PETS<sup></sup></div>
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
@@ -133,7 +137,7 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Costo de Eutanasia</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$182,000</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
