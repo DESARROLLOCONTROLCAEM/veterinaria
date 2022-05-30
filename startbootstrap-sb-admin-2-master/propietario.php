@@ -231,7 +231,7 @@
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tabla Propietarios</h6>
-                                    <a href="registerpacientes.php" class="btn btn-success btn-icon-split">
+                                    <a href="registerpropietario.php" class="btn btn-success btn-icon-split">
                                         <span class="icon text-white-50">
                                             <i class="fas fa-check"></i>
                                         </span>
