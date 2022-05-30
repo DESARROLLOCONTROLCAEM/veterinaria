@@ -29,7 +29,7 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-block ">
-                        <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="...">
+                        <img class="sidebar-card-illustration mb-2" src="images/16402750018255.jpg" alt="...">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
