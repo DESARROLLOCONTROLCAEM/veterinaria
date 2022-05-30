@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Blank</title>
+    <title>SB Admin 2 - guia</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="blank.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="guia.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -41,7 +41,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="blank.php">
+                <a class="nav-link" href="guia.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Universo Finito</span></a>
             </li>
@@ -54,7 +54,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="blankdos.php">
+                <a class="nav-link" href="guiados.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Universo Infinito</span></a>
             </li>
@@ -91,7 +91,7 @@
                                                 <h2 class="h4 text-gray-900 mb-4">Aplicacion que me permite calcular la
                                                     muestra finita</h2>
                                             </div>
-                                            <form action="blank.php" method="post">
+                                            <form action="guia.php" method="post">
                                                 <div class="form-group row">
                                                     <h5 class="h5 text-gray-900 mb-4">Tamaño de la Poblacion o Universo
                                                     </h5>
@@ -143,7 +143,7 @@
                                             <hr>
 
                                             <div class="text-center">
-                                                <a class="small" href="blank.php">
+                                                <a class="small" href="guia.php">
                                                     <?php
                                                     error_reporting(0);
                                                     $N = $_POST['N'];
