@@ -132,7 +132,7 @@
                     <span>Pacientes</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="paciente.php">
+                <a class="nav-link" href="propietario.php">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Propietario</span></a>
             </li>
