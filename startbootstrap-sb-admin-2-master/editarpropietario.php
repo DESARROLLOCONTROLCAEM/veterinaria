@@ -29,12 +29,12 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-block ">
-                        <img class="sidebar-card-illustration mb-2" src="images/16402750018255.jpg" alt="...">
+                        <img class="sidebar-card-illustration mb-2" src="images/gato.jpg" alt="...">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h3 text-gray-900 mb-4">Crea una Propietario!</h1>
+                                <h1 class="h3 text-gray-900 mb-4">Editar una Propietario!</h1>
                             </div>
                             <form class="propietario">
                                 <div class="form-group row">
@@ -96,7 +96,7 @@
 
                                 <br>
                                 <a href="propietario.php" class="btn btn-primary btn-user btn-block">
-                                    Registrar propietario
+                                    Editar propietario
                                 </a>
                                 <hr>
 

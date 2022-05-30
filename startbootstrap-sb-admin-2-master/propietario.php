@@ -275,7 +275,7 @@
                                                     <td>$320,800</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -292,7 +292,7 @@
                                                     <td>$170,750</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -309,7 +309,7 @@
                                                     <td>$86,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -326,7 +326,7 @@
                                                     <td>$433,060</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -343,7 +343,7 @@
                                                     <td>$162,700</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -360,7 +360,7 @@
                                                     <td>$372,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -377,7 +377,7 @@
                                                     <td>$137,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -394,7 +394,7 @@
                                                     <td>$327,900</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -411,7 +411,7 @@
                                                     <td>$205,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -428,7 +428,7 @@
                                                     <td>$103,600</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -445,7 +445,7 @@
                                                     <td>$90,560</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -462,7 +462,7 @@
                                                     <td>$342,000</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -479,7 +479,7 @@
                                                     <td>$470,600</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -496,7 +496,7 @@
                                                     <td>$313,500</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
@@ -513,7 +513,7 @@
                                                     <td>$385,750</td>
                                                     <td>$320,800</td>
                                                     <td>
-                                                        <a href="editarpacientes.php" class="btn btn-info btn-circle">
+                                                        <a href="editarpropietario.php" class="btn btn-info btn-circle">
                                                             <i class="fas fa-pen"></i>
                                                         </a>
                                                         <a href="#" class="btn btn-danger btn-circle">
