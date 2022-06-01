@@ -49,7 +49,7 @@
                                 <br>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <select class="text-primary" aria-label="Default select example" name="genero" id="genero">
+                                        <select class="text-primary form-control form-control-user" aria-label="Default select example" name="genero" id="genero">
                                             <option selected>Genero</option>
                                             <option value="1">Potos</option>
                                             <option value="2">Amazona</option>
@@ -58,7 +58,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6">
-                                    <select class="text-primary" aria-label="Default select example" name="especie" id="especie">
+                                    <select class="text-primary form-control form-control-user" aria-label="Default select example" name="especie" id="especie">
                                             <option selected>Especie</option>
                                             <option value="1">Flavus</option>
                                             <option value="2">Amazónica</option>
@@ -79,7 +79,7 @@
                                 <br>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <select class="text-primary" aria-label="Default select example" name="etapa" id="etapa">
+                                        <select class="text-primary form-control form-control-user" aria-label="Default select example" name="etapa" id="etapa">
                                             <option selected>Etapa de Desarrollo</option>
                                             <option value="1">Neonato</option>
                                             <option value="2">Infantil</option>
@@ -89,7 +89,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6">
-                                    <select class="text-primary" aria-label="Default select example" name="sexo" id="sexo">
+                                    <select class="text-primary form-control form-control-user" aria-label="Default select example" name="sexo" id="sexo">
                                             <option selected>Sexo</option>
                                             <option value="1">Hembra</option>
                                             <option value="2">Macho</option>

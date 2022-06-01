@@ -58,9 +58,19 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Repita Contraseña">
+                                            id="exampleRepeatPassword" placeholder="Confirmar Contraseña">
                                     </div>
                                 </div>
+                                <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <select class="text-primary form-control form-control-user" placeholder="Rol" aria-label="Default select example" name="Rol" id="Rol">
+                                                                                <option selected> Rol</option>                    
+                                                                                <option value="1">Admin</option>
+                                                                                <option value="2">Veterinario</option>
+                                    </select>
+                                </div>
+                                </div>
+
                                 <a href="login.php" class="btn btn-primary btn-user btn-block">
                                     Registrar Cuenta
                                 </a>
