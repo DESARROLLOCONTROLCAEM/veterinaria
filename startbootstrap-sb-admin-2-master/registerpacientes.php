@@ -18,6 +18,13 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/alertifyjs/alertify.js"></script>
+
 </head>
 
 <body class="bg-gradient-primary">
@@ -29,7 +36,7 @@
                 <!-- Nested Row within Card Body -->
                 <div class="row">
                     <div class="col-lg-5 d-none d-lg-block ">
-                        <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="...">
+                        <img class="sidebar-card-illustration mb-2" src="images/gallery-05_original.jpg" alt="..." style="width=Auto; height: 100%;">
                     </div>
                     <div class="col-lg-7">
                         <div class="p-5">
@@ -39,10 +46,10 @@
                             <form class="paciente">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="nombrepaciente" placeholder="Nombre Paciente">
+                                        <input type="text" name="namep" id="namep" class="form-control form-control-user"  placeholder="Nombre Paciente">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="nombrecomun" placeholder="Nombre Comun">
+                                        <input type="text" name="namec" id="namec" class="form-control form-control-user"  placeholder="Nombre Comun">
                                     </div>
                                 </div>
                                 
@@ -51,8 +58,8 @@
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <select class="text-primary form-control form-control-user" aria-label="Default select example" name="genero" id="genero">
                                             <option selected>Genero</option>
-                                            <option value="1">Potos</option>
-                                            <option value="2">Amazona</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
                                             <option value="3">Pionites melanocephalus</option>
                                             <option value="4">Pionus</option>
                                         </select>
@@ -67,12 +74,11 @@
                                         </select>
                                     </div>
                                 </div>
-                                
                                 <br>
                                 <div class="form-group row">
                                    
                                     <div class="col-sm-12">
-                                        <input type="text" class="form-control form-control-user" id="nombrecientifico" placeholder="Nombre Cientifico">
+                                        <input type="text" class="form-control form-control-user" name="nombrecientifico" id="nombrecientifico" placeholder="Nombre Cientifico">
                                     </div>
                                 </div>
                                 
@@ -99,9 +105,7 @@
                                 </div>
                                 
                                 <br>
-                                <a href="paciente.php" class="btn btn-primary btn-user btn-block">
-                                    Registrar Paciente
-                                </a>
+                                <span class="btn btn-primary" id="entrarSistema">Guardar</span>
                                 <hr>
 
                             </form>
@@ -130,3 +134,59 @@
 </body>
 
 </html>
+
+   <script type="text/javascript">
+            $(document).ready(function(){
+                $('#entrarSistema').click(function(){
+                    if($('#namep').val()==""){
+                        alertify.alert("Debes agregar el nombre del paciente");
+                        return false;
+                    }else if($('#namec').val()==""){
+                        alertify.alert("Debes agregar el nombre comun");
+                        return false;
+                    }else if($('#genero').val()==""){
+                        alertify.alert("Debes agregar el genero");
+                        return false;
+                    }else if($('#especie').val()==""){
+                        alertify.alert("Debes agregar la especie");
+                        return false;
+                    }else if($('#nombrecientifico').val()==""){
+                        alertify.alert("Debes agregar el nmbre cientifico");
+                        return false;
+                    }else if($('#etapa').val()==""){
+                        alertify.alert("Debes agregar la etapa");
+                        return false;
+                    }else if($('#sexo').val()==""){
+                        alertify.alert("Debes agregar el sexo");
+                        return false;
+                    }
+
+            cadena="namep=" + $('#namep').val() + 
+                    "&namec=" + $('#namec').val() + 
+                    "&genero=" + $('#genero').val() + 
+                    "&especie=" + $('#especie').val() + 
+                    "&nombrecientifico=" + $('#nombrecientifico').val() + 
+                    "&etapa=" + $('#etapa').val() + 
+                    "&sexo=" + $('#sexo').val();
+
+
+
+
+
+                    $.ajax({
+                        type:"POST",
+                        url:"php/registrar_paciente.php",
+                        data:cadena,
+                        success:function(r){
+                            if(r==1){
+                                window.location="paciente.php";
+                            }else{
+                                alertify.alert(r);
+                            }
+                        }
+                    });
+
+
+                }); 
+            });
+    </script>

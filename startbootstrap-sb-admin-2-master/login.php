@@ -20,6 +20,13 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/alertifyjs/alertify.js"></script>
+
 </head>
 
 <body class="bg-gradient-primary">
@@ -43,12 +50,12 @@
                                     </div>
                                     <form class="login">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
+                                            <input type="number" name="email" class="form-control form-control-user"
                                                 id="email" aria-describedby="email"
-                                                placeholder="Introduzca la dirección de correo electrónico...">
+                                                placeholder="Introduzca la identificación">
                                         </div>
                                         <div class="form-group">
-                                            <input type="contraseña" class="form-control form-control-user"
+                                            <input type="password" name="P" id="P" class="form-control form-control-user"
                                                 id="exampleInputPassword" placeholder="Contraseña">
                                         </div>
                                         <div class="form-group">
@@ -56,19 +63,18 @@
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
                                                 <label class="custom-control-label" for="customCheck">Recordar Contraseña</label>
                                             </div>
+
                                         </div>
-                                        <a href="paciente.php" class="btn btn-primary btn-user btn-block">
-                                            Iniciar Sesion
-                                        </a>
                                         <hr>
                                         
                                     </form>
+                                    <span class="btn btn-primary" id="entrarSistema">Entrar</span>
                                     <hr>
                                     <div class="text-center">
                                         <a class="small" href="forgot-password.php">Olvido Contraseña?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="register.php">Crear Cuenta!</a>
+                                        <a class="small" href="registerindex.php">Crear Cuenta!</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,3 +101,39 @@
 </body>
 
 </html>
+
+   <script type="text/javascript">
+            $(document).ready(function(){
+                $('#entrarSistema').click(function(){
+                    if($('#email').val()==""){
+                        alertify.alert("Debes agregar el usuario");
+                        return false;
+                    }else if($('#P').val()==""){
+                        alertify.alert("Debes agregar el password");
+                        return false;
+                    }
+
+            cadena="email=" + $('#email').val() + 
+                    "&P=" + $('#P').val();
+
+
+
+
+
+                    $.ajax({
+                        type:"POST",
+                        url:"php/login.php",
+                        data:cadena,
+                        success:function(r){
+                            if(r==1){
+                                window.location="paciente.php";
+                            }else{
+                                alertify.alert("Fallo al ingresar.");
+                            }
+                        }
+                    });
+
+
+                }); 
+            });
+    </script>

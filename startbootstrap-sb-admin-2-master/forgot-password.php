@@ -55,7 +55,7 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="register.php">Crea una cuenta!</a>
+                                        <a class="small" href="registerindex.php">Crea una cuenta!</a>
                                     </div>
                                     <div class="text-center">
                                         <a class="small" href="login.php">¿Ya tienes una cuenta? Login!</a>

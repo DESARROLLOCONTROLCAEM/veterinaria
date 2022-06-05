@@ -105,7 +105,7 @@
                                                     <select class="text-primary" aria-label="Default select example" name="Z" id="Z">
                                                         <option value="0">Seleccione:</option>
                                                         <?php
-                                                        $mysqli = new mysqli("localhost", "root", "", "muestra");
+                                                        $mysqli = new mysqli("localhost", "root", "root", "muestra");
                                                         $query = $mysqli->query("SELECT * FROM `nivel_confianza`");
                                                         while ($valores = mysqli_fetch_array($query)) {
                                                             echo '<option value="' . $valores[2] . '">' . $valores[1] . '</option>';

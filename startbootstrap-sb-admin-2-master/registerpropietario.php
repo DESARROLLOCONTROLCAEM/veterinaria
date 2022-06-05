@@ -36,10 +36,10 @@
                             <div class="text-center">
                                 <h1 class="h3 text-gray-900 mb-4">Crea una Propietario!</h1>
                             </div>
-                            <form class="propietario">
+                            <form action="propietario.php" method="post">
                                 <div class="form-group row">
                                     <div class="col-sm-12">
-                                        <input type="text" class="form-control form-control-user" id="nombrescompletos" placeholder="Nombres completos">
+                                        <input type="text" name="nombres" class="form-control form-control-user" id="nombres" placeholder="Nombres completos">
                                     </div>
 
                                 </div>
@@ -56,7 +56,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-7">
-                                        <input type="text" class="form-control form-control-user" id="nidentificacion" placeholder="Número de Identificación">
+                                        <input type="text" class="form-control form-control-user" name="id" id="id" placeholder="Número de Identificación">
 
                                     </div>
                                 </div>
@@ -65,43 +65,63 @@
                                 <div class="form-group row">
 
                                     <div class="col-sm-12">
-                                        <input type="text" class="form-control form-control-user" id="direccion" placeholder="Dirección ">
+                                        <input type="text" class="form-control form-control-user" name = "direccion" id="direccion" placeholder="Dirección ">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="form-group row">
 
                                     <div class="col-sm-6">
-                                        <input type="number" class="form-control form-control-user" id="ncontacto" placeholder="Número de contacto ">
+                                        <input type="number" class="form-control form-control-user" name="ncontacto" id="ncontacto" placeholder="Número de contacto ">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="email" class="form-control form-control-user" id="correo" placeholder="Correo electrónico ">
+                                        <input type="email" class="form-control form-control-user" name="correo" id="correo" placeholder="Correo electrónico ">
                                     </div>
                                 </div>
 
                                 <br>
-                                <div class="form-group row">
-                                    <div class="col-sm-9 mb-3 mb-sm-0">
-                                        <select class="text-primary" aria-label="Default select example" name="etapa" id="etapa">
-                                            <option selected>Paciente</option>
-                                            <option value="1">Nombre de mascota 1</option>
-                                            <option value="2">Nombre de mascota 2</option>
-                                            <option value="3">Nombre de mascota 3</option>
-                                            <option value="4">Nombre de mascota 4</option>
-                                            <option value="5">Nombre de mascota 5</option>
-                                        </select>
-                                    </div>
-                                   
-                                </div>
+
 
                                 <br>
-                                <a href="propietario.php" class="btn btn-primary btn-user btn-block">
-                                    Registrar propietario
-                                </a>
+                                <input type="submit" class="form-control form-control-user btn-primary">
                                 <hr>
 
                             </form>
                             <hr>
+                            <?php
+                                error_reporting(0);
+                                $N = '"'.$_POST['nombres'].'"';
+                                $tid = '"'.$_POST['tipoid'].'"';
+                                $ID = $_POST['id'];
+                                $D = '"'.$_POST['direccion'].'"';
+                                $NC = $_POST['ncontacto'];
+                                $C = '"'.$_POST['correo'].'"';
+                                //$N = '"'.$N.'"';
+
+                                $conexion = new mysqli("localhost","root","root","eutanasia");
+                                if ($conexion->connect_errno){
+                                    echo "fallo conexion";
+                                }else{
+                                    echo "";                  
+                                }
+
+                                if (empty($_POST['ID']))  {
+
+                                } else {
+                                    $resultados = mysqli_query($conexion,"select count(*) as c from propietarios where tipo_id = $tid and id = $ID ");
+                                    while($consulta = mysqli_fetch_array($resultados)){
+                                        $Z=$consulta['c'];
+                                    }
+                                } 
+                                if ($Z > 0)  {
+                                    echo '<div class="jumbotron"><h1>El propietario ya se encuentra registrado.</h1></div>';
+                                } else{
+
+                                    $resultados = mysqli_query($conexion,"INSERT INTO propietarios (nombres, tipo_id, id, direccion, num_contacto, correo) VALUES ($N,{$tid},{$ID},{$D},{$NC},{$C})");
+
+                                    echo '<div class="jumbotron"><h1>Usuario registrado.</h1></div>';
+                                }
+                            ?>
                             <div class="text-center">
                                 <a class="small" href="propietario.php">Cancelar!</a>
                             </div>
